@@ -155,7 +155,6 @@ sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 CTRL+C
 
 ---------------------------------
-Ù‚Ø¨Ù„ Ø§Ø² Ø§Ø¯Ø§Ù…Ù‡ØŒ Ø¨Ø§ ŒØ± Ù…Ø·Ù…Ø¦Ù† Ø´ÙˆÛŒØ¯ Ú©Ù‡‡ Ù‡Ù…Ú¯Ø§Ù… Ø´Ø¯Ù‡ Ø§ÛŒØ¯ 
 
 curl -s localhost:26657/status | grep block_height
 ------------------------------------------------
