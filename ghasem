@@ -152,7 +152,6 @@ wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME}Â | tar xf - \
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 
 -------------------------------------------------
-CTRL+C
 
 ---------------------------------
 
